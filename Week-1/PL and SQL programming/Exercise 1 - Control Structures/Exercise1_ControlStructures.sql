@@ -8,13 +8,7 @@ SET SERVEROUTPUT ON;
 -- PART 1: SCHEMA SETUP & DUMMY DATA (For testing purposes)
 -- =========================================================================
 
-CREATE TABLE Customers (
-                           CustomerID NUMBER PRIMARY KEY,
-                           Name VARCHAR2(100),
-                           DOB DATE,
-                           Balance NUMBER,
-                           IsVIP VARCHAR2(5)
-);
+CREATE TABLE Customers (CustomerID NUMBER PRIMARY KEY, Name VARCHAR2(100), DOB DATE, Balance NUMBER, IsVIP VARCHAR2(5));
 
 CREATE TABLE Loans (
                        LoanID NUMBER PRIMARY KEY,
