@@ -8,20 +8,9 @@ SET SERVEROUTPUT ON;
 -- PART 1: SCHEMA SETUP and DUMMY DATA
 -- =========================================================================
 
-CREATE TABLE Accounts (
-                          AccountID NUMBER PRIMARY KEY,
-                          OwnerName VARCHAR2(100),
-                          AccountType VARCHAR2(50),
-                          Balance NUMBER,
-                          LastModified DATE
-);
+CREATE TABLE Accounts (AccountID NUMBER PRIMARY KEY, OwnerName VARCHAR2(100), AccountType VARCHAR2(50), Balance NUMBER, LastModified DATE);
 
-CREATE TABLE Employees (
-                           EmployeeID NUMBER PRIMARY KEY,
-                           Name VARCHAR2(100),
-                           Department VARCHAR2(50),
-                           Salary NUMBER
-);
+CREATE TABLE Employees (EmployeeID NUMBER PRIMARY KEY, Name VARCHAR2(100), Department VARCHAR2(50), Salary NUMBER);
 
 -- Insert Account Data
 INSERT INTO Accounts VALUES (101, 'Tony Stark', 'Savings', 50000, SYSDATE);
