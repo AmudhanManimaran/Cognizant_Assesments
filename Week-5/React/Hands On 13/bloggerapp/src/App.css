@@ -1,0 +1,41 @@
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.mystyle1, .st2, .v1 {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.st2 {
+  border-left: 3px solid green;
+}
+
+.v1 {
+  border-left: 3px solid green;
+}
+
+/* Section headings: "Course Details", "Book Details", "Blog Details" */
+.mystyle1 h1, .st2 h1, .v1 h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Item titles: "Angular", "Master React", "React Learning" etc. */
+.mystyle1 h3, .st2 h3, .v1 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+/* Values: dates, prices, author lines, content lines */
+.mystyle1 p, .st2 h4, .v1 p {
+  font-size: 17px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
