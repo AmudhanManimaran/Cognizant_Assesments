@@ -2,7 +2,7 @@
 
 This exercise demonstrates how to prevent Git from tracking specific files and folders using a `.gitignore` file.
 
-**GitLab repository:** https://gitlab.com/amudhanmanimaran.am/gitdemo
+**GitLab repository:** https://gitlab.com/amudhanmanimaran.am/gitdemo/-/tree/master?ref_type=heads
 
 ## Objectives Completed
 - Created a `.log` file and a `log` directory.
