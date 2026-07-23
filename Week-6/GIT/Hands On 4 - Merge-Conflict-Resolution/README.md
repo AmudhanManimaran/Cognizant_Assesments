@@ -1,7 +1,3 @@
-#### Git Hands-On 4 (Resolving Merge Conflicts)
-**Artifact to include in folder:** `hello.xml`
-
-```markdown
 # Git Hands-on 4: Resolving Merge Conflicts
 
 This exercise intentionally created a merge conflict by modifying the same file on two different branches, followed by manual resolution and cleanup.
@@ -43,3 +39,8 @@ git add .gitignore
 git commit -m "Fixed case sensitive in .gitignore for merge backups"
 git branch -d GitWork
 git push origin master
+```
+
+## Result
+
+The merge conflict was successfully resolved by removing Git's conflict markers, keeping the intended code, and committing the changes. Backup files were effectively ignored. The resolved `hello.xml` artifact is included in this folder.
