@@ -1,4 +1,4 @@
-# Git Hands-On 1: Git Configuration & Basic Workflow
+# Git Hands-on 1: Git Configuration & Basic Workflow
 
 This exercise was completed using **GitLab** as specified in the lab manual. The repository named `GitDemo` was created under my GitLab account.
 
@@ -27,3 +27,8 @@ echo "Welcome to the version control" >> welcome.txt
 git add welcome.txt
 git commit -m "Initial commit Added the welcome.txt file to the repository"
 git push origin master
+```
+
+## Result
+
+The `welcome.txt` file was created, committed, and pushed successfully to the `master` branch of the `GitDemo` repository on GitLab. The artifact is included in this folder.
