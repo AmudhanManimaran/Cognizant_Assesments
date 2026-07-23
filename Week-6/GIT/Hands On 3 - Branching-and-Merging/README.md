@@ -1,7 +1,3 @@
-#### Git Hands-On 3 (Branching and Merging)
-**Artifact to include in folder:** `feature.txt`
-
-```markdown
 # Git Hands-on 3: Branching and Fast-Forward Merging
 
 This exercise demonstrates branch creation, adding files to a new branch, and safely merging those changes back into the master branch.
@@ -28,3 +24,8 @@ git merge GitNewBranch
 git branch -d GitNewBranch
 git log --oneline --graph --decorate
 git push origin master
+```
+
+## Result
+
+The `git log --graph` output confirmed a successful fast-forward merge with a linear history. Git's safety mechanism successfully prevented the deletion of `GitNewBranch` prior to the merge. The `feature.txt` artifact is included in this folder.
